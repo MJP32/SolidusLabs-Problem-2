@@ -1,0 +1,17 @@
+# To run the program arguments must be a file and an integer amount
+
+
+# What is the big O notation for your program?
+# This is a recursive solution, first we sort the items which is O(n log n )
+
+# The algorithm has to find all combinations and decides whether to add it to the results or not
+#  so the Big O notation is: O (n^k) where n in the number of items and k is the number of gifts to buy
+
+
+
+# Bonus
+# To allow for 3 gifts instead of two
+# comment line 7 and uncomment line 8 in BuyGifts.java
+
+//public final static int NUMBER_ITEMS_TO_BUY = 2;
+public final static int NUMBER_ITEMS_TO_BUY = 3;
